@@ -1,0 +1,151 @@
+.probContainer {
+    max-width: 75%;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #40444b;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 0;
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+span.timeSec {
+    border: 2px solid #7289da;
+    background: #7289da55;
+    padding: 0.5rem;
+    font-size: 1.45rem;
+    border-radius: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+h1.heading {
+    font-size: 1.5rem;
+    white-space: nowrap;
+    color: #7289da;
+    border-bottom: 2px solid #51555c;
+    padding-bottom: 0.5rem;
+    font-family: "Montserrat";
+    pointer-events: none;
+}
+
+.probPara {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem 0;
+    font-family: "Montserrat";
+}
+
+.probText {
+    text-align: justify;
+    line-height: 1.33rem;
+    white-space: pre-wrap;
+    padding: 1rem;
+    margin-top: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #51555c;
+    pointer-events: none;
+}
+
+.textCompiler {
+    color: transparent;
+    background-color: rgb(62, 59, 59);
+    border: none;
+    width: 100%;
+    height: 200px;
+    font-size: 16px;
+    resize: none;
+    border-radius: 5px;
+
+}
+
+.input {
+    background-color: rgb(62, 59, 59);
+    border: none;
+    color: whitesmoke;
+    width: 100%;
+    height: 200px;
+    font-size: 16px;
+    resize: none;
+    border-radius: 5px;
+}
+
+.outer {
+    margin: 20px;
+}
+
+.container {
+    max-width: 75%;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #40444b;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit {
+    padding: 10px;
+    width: 150px;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.compiler ::selection {
+    color: transparent;
+    background-color: transparent;
+}
+
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #2b6dd8;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}

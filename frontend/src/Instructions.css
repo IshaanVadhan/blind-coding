@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.instContainer {
+    max-width: 50%;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #40444b;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+.instTitle {
+    border-bottom: 0.15rem solid #51555c;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    color: #7289da;
+}
+
+.para {
+    display: flex;
+    margin-bottom: 0.33rem;
+}
+
+.ins {
+    word-spacing: 0.1rem;
+    text-align: justify;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+span.numb {
+    font-size: 1rem;
+    background-color: #7289da44;
+    border: 2px solid #7289da;
+    border-radius: 5rem;
+    padding: 1rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+span.insText {
+    font-size: 1rem;
+    background-color: #51555c;
+    padding: 1rem 1.3rem;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.instBtn {
+    background-color: #7289da;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    margin-top: 1.75rem;
+    padding: 0.8rem 1.2rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.instBtn:hover {
+    background-color: #566ab3;
+}

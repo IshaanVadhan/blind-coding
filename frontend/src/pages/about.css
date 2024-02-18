@@ -1,0 +1,142 @@
+  
+  * {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  
+  .main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(homeBG.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+
+  .navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 100px;
+}
+
+.att{
+    margin: 5px 0 5px 0;;
+}
+
+.logo{
+    color: #2b6dd8;
+    font-size: 35px;
+    font-family: "Montserrat";
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: right;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #2b6dd8;
+}
+
+
+  .column {
+    float: left;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 50%;
+      display: inline-block;
+    }
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .container::after,
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .title {
+    color: grey;
+  }
+
+  p{
+    margin: 5px;
+  }
+
+  .mar{
+    margin-top: 23px;
+    margin-bottom: 35px;
+  }
+
+
+  .content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    margin-top: 50px;
+}
+
+/* .content{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    padding-top: 1rem;
+    font-family: "Montserrat";
+    letter-spacing: 1.2px;
+    line-height: 30px;
+} */

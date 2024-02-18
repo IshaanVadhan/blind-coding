@@ -1,0 +1,31 @@
+.thankContainer {
+    max-width: 50%;
+    margin: 3rem auto;
+    padding: 3rem 2rem 2rem;
+    background-color: #40444b;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkCont {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thankMsg {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    margin-top: 1.25rem;
+    padding: 1.25rem;
+    border-top: 3px solid #51555c;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+}

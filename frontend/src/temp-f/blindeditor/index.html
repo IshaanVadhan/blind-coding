@@ -1,0 +1,121 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main content">
+        <div class="outer">
+
+            <div class="container">
+
+                <h1>Question 1</h1>
+
+                <div class="timer">
+                    <h3>Time Remained: </h3> <span id="time"></span> minutes!
+                </div>
+
+            </div>
+
+            <h1>Problem Statement</h1>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero ipsum eaque dolores! Et, assumenda. Sint
+                deserunt
+                unde, molestiae neque nihil ullam voluptas consequatur officiis soluta earum quas illo aperiam dicta
+                atque
+                laborum cumque veniam.
+            </p>
+
+            <h3>Input Format</h3>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore hic, eius quisquam tempora eaque cum ad
+                ratione!
+                Fugiat, nesciunt quis omnis minima quod consequatur reiciendis, rerum odio repellendus atque cumque
+                consectetur
+                excepturi?</p>
+
+            <h3>Output Format</h3>
+            <p>For each test case, output on a new line, the minimum number of operations required to make all elements
+                of
+                the
+                array equal.</p>
+
+
+            <h3>Contraints</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, vero unde! Quisquam.</p>
+
+            <h3>Sample Input</h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+            <h3>Sample Ouput</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+
+            <div>
+
+                <h3 class="center">Code</h3>
+                <form>
+                    <div class="compiler">
+                        <textarea class="textCompiler" id="code" placeholder="Type something here..."></textarea><br>
+                    </div>
+
+                    <div class="btn" style="text-align: center;">
+                        <button class="cn" onclick="compile()">Compile & Submit</button>
+                    </div>
+
+                </form>
+            </div>
+            <div>
+                <h3 class="center">Input</h3>
+                <form>
+                    <textarea class="input" id="input"></textarea><br>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        function startTimer(duration, display) {
+            var start = Date.now(),
+                diff,
+                minutes,
+                seconds;
+            function timer() {
+                // get the number of seconds that have elapsed since 
+                // startTimer() was called
+                diff = duration - (((Date.now() - start) / 1000) | 0);
+
+                // does the same job as parseInt truncates the float
+                minutes = (diff / 60) | 0;
+                seconds = (diff % 60) | 0;
+
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = minutes + ":" + seconds;
+
+                if (diff <= 0) {
+                    // add one second so that the count down starts at the full duration
+                    // example 05:00 not 04:59
+                    start = Date.now() + 1000;
+                }
+            };
+            // we don't want to wait a full second before the timer starts
+            timer();
+            setInterval(timer, 1000);
+        }
+
+        window.onload = function () {
+            var fiveMinutes = 60 * 15, display = document.querySelector('#time');
+            startTimer(fiveMinutes, display);
+        };
+
+        
+    </script>
+
+</body>
+
+
+</html>

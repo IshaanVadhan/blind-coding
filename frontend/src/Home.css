@@ -1,0 +1,379 @@
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.33)50%,rgba(0,0,0,0.33)50%), url(./homeBG.png);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 100px;
+}
+
+.att{
+    margin: 5px 0 5px 0;;
+}
+
+.logo{
+    color: #2b6dd8;
+    font-size: 35px;
+    font-family: "Montserrat";
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 600px;
+    float: right;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #2b6dd8;
+}
+
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #2b6dd8;
+    border: 2px solid #2b6dd8;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .homePar{
+    margin-left: 20px;
+    margin-bottom: 25px;
+    padding-top: 1rem;
+    font-family: "Montserrat";
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1.homeTitle{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.15rem solid #eee;
+    color: #eee;
+    width: fit-content;
+}
+
+.homeSubtitle {
+    font-family: "Montserrat";
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0.5rem;
+    /* margin-bottom: 2rem; */
+    letter-spacing: 2px;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.15rem solid #eee;
+    color: #eee;
+    width: fit-content;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    /* background-color: red; */
+    /* margin-left: 20px; */
+    margin-top: 0.5rem;
+}
+
+/* .card {
+    min-width: 17rem;
+} */
+
+.aboutus {
+    margin-bottom: 5rem;
+}
+
+.cardContainer {
+    white-space: nowrap;
+    background-color: c;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardImage {
+    height: 8rem;
+    max-width: 8rem;
+    min-width: 8rem;
+    border-radius: 0.5rem;
+    margin: 0 0 1rem;
+}
+
+.cardName {
+    padding: 0.5rem 0.5rem 0;
+    border-top: 2px solid #eee;
+    font-size: 1rem;
+}
+
+.cardTitle {
+    font-size: 0.8rem;
+}
+
+.content .homeBtn{
+    margin-left: 20px;
+    background-color: #7289da;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 0.8rem 1.2rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.content .homeBtn:hover{
+    background-color: #566ab3;
+}
+
+.homeBtn:hover{
+    background-color: #566ab3;
+}
+
+.content span{
+    color: #2b6dd8;
+    font-size: 65px
+}
+
+.form{
+
+    width: 250px;
+    margin: 2vh auto 0 auto;
+    padding: 20px;
+    font-size: 12px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 850px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: "Montserrat";
+    text-align: center;
+    color: #2b6dd8;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: "Montserrat";
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background:#2b6dd8;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #2b6dd8;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 4px;
+	width: 95%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #2b6dd8;
+}
+
+.contactCont {
+    background: #111111aa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-left: 20px;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    padding: 2rem 4rem;
+}
+
+.contCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    letter-spacing: 1px;
+    font-family: "Montserrat";
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.contTitle {
+    padding: 0 0.5rem 0.75rem;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 0.5rem;
+}
+
+.contText {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.contIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0.5rem;
+}
+
+.abtContainer {
+    width: 100%;
+    background: #111111aa;
+    margin-left: 20px;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    padding: 2rem 4rem;
+}

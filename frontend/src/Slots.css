@@ -1,0 +1,51 @@
+.slotsContainer {
+    max-width: 50%;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #40444b;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+h1.title {
+    font-size: 2.5rem;
+    font-family: "Syncopate";
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 1rem auto 1.5rem;
+    ;
+    color: #7289da;
+    font-size: 2rem;
+    /* background-color: red; */
+}
+
+.slots {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 0.15rem solid #51555c;
+    padding-top: 1.75rem;
+}
+
+.slot {
+    font-size: 1.15rem;
+    background-color: #51555c;
+    font-family: "Montserrat";
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    color: #eee;
+    border: none;
+}
+.slot:not(:disabled):hover {
+    transform: scale(0.9);
+    background-color: #62666d;
+}
+
+.slot:disabled {
+    opacity: 0.5;
+    cursor:not-allowed;
+}
